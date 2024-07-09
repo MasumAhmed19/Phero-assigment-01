@@ -102,6 +102,11 @@ main {
 }
 
 
+.pdding {
+    padding: 0px 15px;
+}
+
+
 /* Navigation bar*/
 
 .navi{
@@ -213,7 +218,46 @@ main {
     justify-content:space-around;
     padding: 48px 48px;
     border-radius: 16px;
-
+    gap: 20px;
     background: linear-gradient(270.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
 
+}
+
+
+
+/* My inspiration Section */
+
+/* why web development section */
+
+.inspiration-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 80px auto;
+    gap: 20px;
+    
+}
+
+
+.inspiration-content{
+    width: 1140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 40px 97px;
+    gap: 20px;
+}
+
+.inspiration-card-content{
+    margin-top: 35px;
+    padding: 30px 30px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+}
+
+.vid{
+    border-radius: 16px;
 }
