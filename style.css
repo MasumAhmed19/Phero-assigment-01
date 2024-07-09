@@ -85,6 +85,23 @@ main {
 }
 
 
+.btn-other{
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding: 10px 25px 10px 25px;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    font-family: Azeret Mono;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    cursor: pointer;
+
+}
+
+
 /* Navigation bar*/
 
 .navi{
@@ -120,15 +137,16 @@ main {
     align-items: center;
     justify-content: center;
     width: 100%;
-    min-height: 85vh;
-    background-image: url('assets/Hero-bg.png');
+    min-height: 75vh;
+    background-image: url('assets/hero-bbg.jpg');
     background-position: center;
     background-size: contain;
+    
 }
 
 .hero-content{
     
-    max-width: 998px;
+    max-width: 1140px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -142,3 +160,49 @@ main {
     justify-content: center;
 }
 
+
+
+/* why web development section */
+
+.why-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 80px auto;
+    
+}
+
+
+.why-content{
+    width: 1140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 80px 97px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
+    gap:20px
+}
+
+.why-card{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    gap: 100px;
+}
+
+
+.why-card-content{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content:space-around;
+    padding: 48px 48px;
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+    gap: 20px;
+
+}
