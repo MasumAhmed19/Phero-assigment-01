@@ -434,3 +434,38 @@ main {
 
 
 /* Footer Design */
+.foot{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.03);
+}
+
+.foot-content{
+    display: flex;
+    flex-direction: row;
+    width: 1140px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.foot-text p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.social{
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    gap: 20px;
+}
