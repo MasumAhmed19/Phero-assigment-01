@@ -143,7 +143,7 @@ main {
     justify-content: center;
     width: 100%;
     min-height: 75vh;
-    background-image: url('assets/hero-bbg.jpg');
+    background-image: url('assets/Hero-bg.png');
     background-position: center;
     background-size: contain;
     
@@ -416,7 +416,6 @@ form {
 
 
 
-
  
 input[type="text"] {
     width: 65%;
@@ -442,6 +441,16 @@ button[type="submit"] {
     font-weight: 500;
     line-height: 23px;
     letter-spacing: 0%;
+}
+
+.plce::placeholder{
+    color: rgba(13, 19, 33, 0.4);
+    font-family: Azeret Mono;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
 }
 
 
