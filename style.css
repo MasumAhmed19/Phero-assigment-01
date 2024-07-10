@@ -380,24 +380,25 @@ main {
     background-position: center;
     background-size: cover;
     border-radius: 16px;
-    background: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),url(Email);
+    background:rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),url('assets/handshake.jpg');
 }
 
 .cta-content .subtitle{
     color: rgb(255, 255, 255);
     font-family: Azeret Mono;
-    font-size: 32px;
-    font-weight: 700;
+    font-size: 35px;
+    font-weight: 800;
     line-height: 36px;
     letter-spacing: 0%;
     text-align: center;
+    margin-bottom: 10px;
 }
 
 .cta-content .pgraph{
     color: rgb(255, 255, 255);
     font-family: Azeret Mono;
     font-size: 16px;
-    font-weight: 400;
+    font-weight: 300;
     line-height: 26px;
     letter-spacing: 0%;
     text-align: center;
@@ -442,6 +443,8 @@ button[type="submit"] {
     line-height: 23px;
     letter-spacing: 0%;
 }
+
+
 
 .plce::placeholder{
     color: rgba(13, 19, 33, 0.4);
